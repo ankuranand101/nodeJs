@@ -1,0 +1,60 @@
+require("name"):To import Module
+Modules to be used in Node Js:-
+1.fs(File System):- Used for interacting with File System(reading,writing..)
+	fs.readFileSync(path):Read a file synchronously
+	fs.readFile(path,callback):Read a file asynchronously
+	fs.writeFile(path,data,callback):
+	fs.appendFile(path,data,callback):
+	fs.unlink(path,callback):
+	fs.mkdir(path,callback):
+callback:-its a function passed as an arguement in another function.
+	
+2.buffer
+3.http
+4.path 
+5.os 
+6.util
+7.url
+
+
+ROUTING :TO REQUEST PARTICULAR REQUEST(GET,POST) FROM ENDPOINT
+
+xml : heavyweight and more secure like banking
+json and xml used interchange of data
+json:lightweight, widely used in node js
+characteristics:text based, language independent,support datatypes like string num,bool,etc.
+JSON is global object 
+two methods:
+1> JSON.parse(): JSON string into javascript object.
+2> JSON.stringify(): JS object to JSON String.
+
+ 
+
+req object: represent the http request and contains detail about client request.
+common req:
+req.url:
+
+res
+
+callback Function:-
+it is a nodejs function that is passed as an arrgument to another function 
+it is a fundamental concept of asynchronous programming in nodejs.
+	characteristics:-
+	 asynchronous
+	 error handling
+concept of Asynchronous programming:-
+1> Non blocking Execution:
+2> Event loop:
+	i)handle asynchronous operation by listning for Event & dispatching their crossponding callback
+3> callback Function
+4> Promises
+
+
+API : A piece of software that can be used by another piece of software
+
+REST API :
+	> Seperate API into logical resources.
+		> Resources : object or representation of something, ehich has data assosiates to it
+	>Expose resource-based URLs, use HTTP methods
+
+
