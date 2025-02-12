@@ -45,7 +45,7 @@ it is a fundamental concept of asynchronous programming in nodejs.
 concept of Asynchronous programming:-
 1> Non blocking Execution:
 2> Event loop:
-	i)handle asynchronous operation by listning for Event & dispatching their crossponding callback
+	i> handle asynchronous operation by listning for Event & dispatching their crossponding callback
 3> callback Function
 4> Promises
 
@@ -55,6 +55,11 @@ API : A piece of software that can be used by another piece of software
 REST API :
 	> Seperate API into logical resources.
 		> Resources : object or representation of something, ehich has data assosiates to it
-	>Expose resource-based URLs, use HTTP methods
+	>Expose resource-based URLs, use HTTP methods 
 
+	> be state less : 
+		> Stateless RESTful API: al state is handled on the client side . this means that each must containsall the information necessary to the process a certain request.
+		> The server should not have to remember previous request.
+		
+	
 
